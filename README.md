@@ -68,7 +68,7 @@ Amazon Athena
 Un fichier CSV est déposé dans le dossier :
 
 ```text
-s3://ysf-data-space-2026/raw/
+s3://ysf-data-2026-v1/raw/
 ```
 
 ### 2. Détection automatique
@@ -101,7 +101,7 @@ Le Job Glue développé en PySpark réalise :
 Les données transformées sont enregistrées au format Parquet dans :
 
 ```text
-s3://ysf-data-space-2026/processed/housing_parquet/
+s3://ysf-data-2026-v1/processed/housing_parquet/
 ```
 
 ### 7. Analyse
